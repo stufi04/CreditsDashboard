@@ -1,0 +1,11 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+  box-sizing: border-box;
+}
+
+.ag-theme-alpine .ag-cell {
+  text-align: left !important;
+}
