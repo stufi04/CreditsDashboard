@@ -22,6 +22,8 @@ The backend is located in the `/api` directory.
    ./run.sh
 
 The script should activate a virtual environment + install the required dependencies.
+You might need to run _chmod +x run.sh_ to ensure it is runnable.
+
 
 ### Frontend
 
