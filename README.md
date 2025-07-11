@@ -7,7 +7,7 @@
 The backend is located in the `/api` directory.
 
 #### Requirements
-- Python 3.9 installed
+- Python 3.9 installed (if you see any issues with dependenies, it could be due to older version of Python)
 
 #### Setup and Run
 
@@ -73,5 +73,6 @@ Obviously there is a lot we can add here, but we are limited by time:
 - I haven't added any tests here yet
 - I like to have separation of concerns, ideally I would have components be presentational, and let logic be in hooks; for simplicity, I just implemented everything in one place here
 - we can use React Query for working with the REST API
+- we could add a spinner to indicate the data is loading as currently is't not a great user experience
 
 
