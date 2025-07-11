@@ -56,7 +56,12 @@ export function DashboardTable({ rowData }: DashboardTableProps) {
   }
 
   const columns: ColDef[] = [
-    { field: 'message_id', headerName: 'Message ID', sortable: false, width: 120 },
+    { 
+      field: 'message_id',
+      headerName: 'Message ID',
+      sortable: false,
+      width: 120 
+    },
     { 
       field: 'timestamp', 
       headerName: 'Timestamp', 
