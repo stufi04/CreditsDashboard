@@ -16,7 +16,7 @@ interface CreditsBarChartProps {
 }
 
 export function CreditsBarChart({ data }: CreditsBarChartProps) {
-  // Aggregate credits per day
+
   const aggregatedCreditsByDate = React.useMemo(() => {
     if (!data.length) return []
     const map = new Map<string, number>()
