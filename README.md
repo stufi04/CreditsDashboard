@@ -7,7 +7,7 @@
 The backend is located in the `/api` directory.
 
 #### Requirements
-- Python 3.x installed
+- Python 3.9 installed
 
 #### Setup and Run
 
